@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  SettingsView.swift
 //  HW2--Basic-Storage
 //
 //  Created by Samman Tyata on 10/18/24.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct SettingsView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +21,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SettingsView()
 }
